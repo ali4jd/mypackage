@@ -11,7 +11,10 @@ license = {file = "LICENSE.txt"}
 dependencies = [
   "httpx",
   "gidgethub>4.0.0",
+  "numpy",
+  "pandas",
 ]
+
 [project.optional-dependencies]
 dev = [
   "bumpver==2023.1129",
